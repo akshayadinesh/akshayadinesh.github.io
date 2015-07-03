@@ -6,7 +6,7 @@ body {
 .barlinks {
     text-decoration: none;
     color:cyan;
-    font-family:cursive;
+    font-family:cursive,"Lucida Console", monospace;
     font-weight: 900;
     length:1000px;
     width:200px;
@@ -45,27 +45,27 @@ body {
 h1 {
     text-align: center;
     color:#FF0066;
-    font-family: cursive;
+    font-family: cursive,"Lucida Console", monospace;
     font-size:50px;
     font-weight: 900;
 }
 
 p {
-    font-family: cursive;
+    font-family: cursive,"Lucida Console", monospace;
     color:#FF0066;
     font-weight: 700;
     font-size: 25px;
 }
 
 ol li {
-    font-family: cursive;
+    font-family: cursive,"Lucida Console", monospace;
     font-weight:600;
     font-size: 20px;
     color: #47008F;
 }
 
 #questions label {
-    font-family: cursive;
+    font-family: cursive,"Lucida Console", monospace;
     font-weight: 400;
     font-size: 20px;
     color: #5C00B8;
@@ -73,7 +73,7 @@ ol li {
 }
 
 #submit {
-    font-family:cursive;
+    font-family:cursive,"Lucida Console", monospace;
     font-size:20px;
     color:white;
     border: 3px solid white;

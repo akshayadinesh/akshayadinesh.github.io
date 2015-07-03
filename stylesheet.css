@@ -6,7 +6,7 @@ body {
 .barlinks {
     text-decoration: none;
     color:cyan;
-    font-family:cursive;
+    font-family:cursive,"Lucida Console", monospace;
     font-weight: 900;
     length:1000px;
     width:200px;
@@ -45,7 +45,7 @@ li {
 h1 {
     text-align: center;
     color:#FF0066;
-    font-family: cursive;
+    font-family: cursive,"Lucida Console", monospace;
     font-size:50px;
     font-weight: 900;
 }
@@ -59,7 +59,7 @@ span {
 
     color:white;
     text-decoration: none;
-    font-family: cursive;
+    font-family: cursive,"Lucida Console", monospace;
     font-size: 60px;
     font-weight:900;
     border: 3px solid white;
