@@ -1,5 +1,5 @@
 body {
-    background:url(quizback.png);
+    background:url(careerback.png);
     background-size: cover;
 }
 
@@ -44,15 +44,15 @@ body {
 
 h1 {
     text-align: center;
-    color:#000099;
-    font-family: cursive;
+    color:#FF0066;
+    font-family: cursive,"Lucida Console", monospace;
     font-size:50px;
     font-weight: 900;
 }
 
 p {
     font-family: cursive,"Lucida Console", monospace;
-    color:#000099;
+    color:#FF0066;
     font-weight: 700;
     font-size: 25px;
 }
@@ -61,14 +61,14 @@ ol li {
     font-family: cursive,"Lucida Console", monospace;
     font-weight:600;
     font-size: 20px;
-    color: #0033CC ;
+    color: #47008F;
 }
 
 #questions label {
     font-family: cursive,"Lucida Console", monospace;
     font-weight: 400;
     font-size: 20px;
-    color: #0033CC ;
+    color: #5C00B8;
     margin-left: 5px;
 }
 

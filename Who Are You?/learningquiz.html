@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-1.11.3.js"></script>
+        <link rel="stylesheet" type="text/css" href="learningstylequiz.css">
+        <script type="text/javascript" src="learningscript.js"></script>
+        <title>Learning Styles Quiz</title>
+    </head>
+    <body>
+    <div id="bar">
+            <center><ul>
+                <li><a class="barlinks" id="home" href="index.html">Who Are You?</a></li>
+                <li><a class="barlinks" href="personalityquiz.html">Personality Quiz</a></li>
+                <li><a class="barlinks" href="learningquiz.html">Learning Styles Quiz</a></li>
+                <li><a class="barlinks" href="careerquiz.html">Career Quiz</a></li>
+                <li><a class="barlinks" href="author.html">About the Author</a></li>
+            </ul></center>
+        </div>
+        <br><br>
+        <h1>Learning Styles Quiz</h1>
+        <center><p>Read each question carefully and answer honestly if you want your results to be accurate. <br>It's okay to skip a question if you don't know the answer.<br>Don't worry, it's completely anonymous!</p></center>
+        <br>
+    <form>
+        <div id="questions">
+        <ol>
+             <!--A.Visual
+                B.Audio
+                C.Notes
+                D.Hands-On-->
+            <li>What kind of books do you like to read for fun?</li><br>
+            <input type="radio" name="1" value="a"><label> Lots of pictures.</label><br>
+            <input type="radio" name="1" value="b"><label> Audiobook.</label><br>
+            <input type="radio" name="1" value="c"><label> Lots of words.</label><br>
+            <input type="radio" name="1" value="d"><label> Create Your Own Adventure Books.</label><br><br><br>
+            
+            <li>When you are not sure what a word means, what are you most likely to do? </li><br>
+            <input type="radio" name="2" value="a"><label> Look it up.</label><br> 
+            <input type="radio" name="2" value="b"><label> Ask someone.</label><br>
+            <input type="radio" name="2" value="c"><label> Write it down so you'll remember it later.</label><br>
+            <input type="radio" name="2" value="d"><label> Use context clues.</label><br><br><br>
+            
+            <li>What do you most remember about a formal event?</li><br>
+            <input type="radio" name="3" value="a"><label> The people who were there.</label><br>
+            <input type="radio" name="3" value="b"><label> The music or conversations you had.</label><br>
+            <input type="radio" name="3" value="c"><label> The date.</label><br>
+            <input type="radio" name="3" value="d"><label> The food you ate.</label><br><br><br>
+            
+            <li>When you see the word "cat", what do you do first?</li><br>
+            <input type="radio" name="4" value="a"><label> Picture it in your mind.</label><br>
+            <input type="radio" name="4" value="b"><label> Hear a cat meow in your head.</label><br>
+            <input type="radio" name="4" value="c"><label> See the letters "c-a-t" form in your mind.</label><br>
+            <input type="radio" name="4" value="d"><label> Imagine how furry it is.</label><br><br><br>
+            
+            <li>How do you study for a test?</li><br>
+            <input type="radio" name="5" value="a"><label> Watch videos and presentations.</label><br>
+            <input type="radio" name="5" value="b"><label> Listen to lectures.</label><br>
+            <input type="radio" name="5" value="c"><label> Re-write or go over your notes.</label><br>
+            <input type="radio" name="5" value="d"><label> Make flashcards..</label><br><br><br>
+            
+            <li>What kind of assignment would you prefer to do?</li><br>
+            <input type="radio" name="6" value="a"><label> Draw a picture or make a PowerPoint.</label><br>
+            <input type="radio" name="6" value="b"><label> Write and perform a speech.</label><br>
+            <input type="radio" name="6" value="c"><label> Write an essay.</label><br>
+            <input type="radio" name="6" value="d"><label> Make a 3-D project of your topic.</label><br><br><br>
+            
+            <li>What do you find most distracting when you're working?</li><br>
+            <input type="radio" name="7" value="a"><label> Dim or bright lights.</label><br>
+            <input type="radio" name="7" value="b"><label> Noises.</label><br>
+            <input type="radio" name="7" value="c"><label> Doodles on your notebook.</label><br>
+            <input type="radio" name="7" value="d"><label> The temperature being too hot or cold.</label><br><br><br>
+            
+            <li>Where would you rather go?</li><br>
+            <input type="radio" name="8" value="a"><label> A movie.</label><br>
+            <input type="radio" name="8" value="b"><label> A concert.</label><br>
+            <input type="radio" name="8" value="c"><label> A museum.</label><br>
+            <input type="radio" name="8" value="d"><label> An amusement park.</label><br><br><br>
+            
+            <li>What are you most likely to remember about new people you meet?</li><br>
+            <input type="radio" name="9" value="a"><label> Their faces.</label><br>
+            <input type="radio" name="9" value="b"><label> What you talked about.</label><br>
+            <input type="radio" name="9" value="c"><label> Their names.</label><br>
+            <input type="radio" name="9" value="d"><label> What they're wearing.</label><br><br><br>
+            
+            <li>You remember things most when you...</li><br>
+            <input type="radio" name="10" value="a"><label> See them.</label><br>
+            <input type="radio" name="10" value="b"><label> Hear them.</label><br>
+            <input type="radio" name="10" value="c"><label> Write them.</label><br>
+            <input type="radio" name="10" value="d"><label> Say them.</label><br><br><br>
+            
+        </ol>
+        </div>
+    </form>
+        <p><center><a href="javascript:void(0);" id="submit" onClick="mySubmit()">Submit</a></center></p>
+    </body>
+</html>
